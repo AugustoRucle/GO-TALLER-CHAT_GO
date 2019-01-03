@@ -1,0 +1,31 @@
+Curso Go - Creación de Chat
+
+Cosas interesantes Css
+
+1. Acceder a elementos dentro de tu div 
+-----HTML-----
+<div id="container">
+	<form id="form_registro">
+		<label>username:</label>
+		<input type="text" name="user_name" id="user_name">
+		<input type="submit" value="Ingresa">
+	</form>
+</div>
+
+-----CSS-----
+		    |------>Se accede a los elementos que esten dentro del elemento con id [registro]
+		    |
+	   -----------------	
+#registro input, #registro label{
+  /*
+     Lo que se desee agregar como estilo	
+  */
+}
+		    |------>Se accede al elemento input de tipo [text]
+		    |
+	   -----------------		
+#registro input[type="text"]{
+   /*
+     Lo que se desee agregar como estilo	
+  */ 
+}
